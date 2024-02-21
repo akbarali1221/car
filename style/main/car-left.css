@@ -1,0 +1,198 @@
+@import 'fonts.css';
+
+/* root */
+:root {
+    --PTSans-Italic: 'PTSans-Italic';
+    --Lato-Italic: 'Lato-Italic';
+    --PTSans-Bold: 'PTSans-Bold';
+    --PTSans-Regular: 'PTSans-Regular';
+    --white: #FFF;
+    --black: #070707;
+    --border-bg: #E5E5E5;
+    --numbers-btn-bg: #FBF7F4;
+    --numbors-color: #545155;
+    --numbers-btn-hover: #070707;
+    --brend-blue: #4A90E2;
+    --grey-dete: #666;
+    --blec-title: #171717;
+}
+
+/* root end */
+
+.car {
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-left__info {
+    margin-left: 20px;
+    max-width: 730px;
+    width: 100%;
+    border-radius: 5px;
+    background: var(--white);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 72px 0px 30px 30px;
+    margin-top: -135px;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.car-left__title {
+    color: var(--blec-title);
+    font-family: var(--PTSans-Bold);
+    font-size: 25px;
+    line-height: 28px;
+
+}
+
+.car-left__img {
+    max-width: 790px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.car-btn {
+    padding: 4px 12px;
+    color: var(--white);
+    text-align: justify;
+    font-family: var(--PTSans-Bold);
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 62px;
+    width: 100%;
+    background: var(--brend-blue);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    transition: all 500ms;
+}
+
+.car-left__title {
+    margin-top: 20px;
+    color: var(--blec-title);
+    font-family: var(--PTSans-Bold);
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.car-left__date {
+    margin: 15px 0;
+    color: var(--grey-dete);
+    font-family: var(--PTSans-Italic);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.car-left__text {
+    color: var(--grey-dete);
+    font-family: var(--PTSans-Regular);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* *****media **** */
+
+@media(max-width: 1095px) {
+    .car-left__img {
+        max-width: 650px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .car-left__info {
+        margin-left: 20px;
+        max-width: 650px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+}
+
+@media(max-width: 980px) {
+
+    .car-left__img {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .car-left__info {
+        margin-left: 20px;
+        max-width: 590px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 915px) {
+
+    .car-left__img {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .car-left__info {
+        margin-left: 20px;
+        max-width: 500px;
+        width: 100%;
+        margin-top: -110px;
+        padding: 20px 0px 20px 20px;
+    }
+}
+
+@media(max-width: 830px) {
+
+    .car-left__img {
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .car-left__info {
+        margin-left: 10px;
+        max-width: 450px;
+        width: 100%;
+        margin-top: -100px;
+        padding: 20px 0px 20px 20px;
+    }
+}
+
+@media(max-width: 760px) {
+
+    .car-left__img {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .car-left__info {
+        margin-left: 6px;
+        max-width: 380px;
+        width: 100%;
+        margin-top: -95px;
+        padding: 20px 0px 20px 20px;
+    }
+
+    .car-btn {
+        padding: 4px 12px;
+        font-size: 10px;
+        line-height: 14px;
+        max-width: 60px;
+        width: 100%;
+    }
+
+    .car-left__title {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .car-left__date {
+        margin: 15px 0;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .car-left__text {
+        font-size: 11px;
+        line-height: 16px;
+    }
+}
+
+
+/* ******media end */

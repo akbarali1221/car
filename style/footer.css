@@ -1,0 +1,177 @@
+@import 'fonts.css';
+
+:root {
+    --PTSans-Italic:'PTSans-Italic';
+    --Lato-Italic: 'Lato-Italic';
+    --PTSans-Bold: 'PTSans-Bold';
+    --PTSans-Regular: 'PTSans-Regular';
+    --white: #FFF;
+    --white-title:#FFFFFF;
+    --grey-middle:#CECECE;
+    --black:#171717;
+    --border-bg: #E5E5E5;
+    --numbers-btn-bg: #FBF7F4;
+    --numbors-color:#545155;
+    --numbers-btn-hover: #070707;
+    --brend-blue: #4A90E2;
+    --grey-dete:#666;
+    --black-btn: #000;
+    --icon-grey:#525252;
+    --grey-brown-input:#373737;
+    --grey-centr-btn:#232323;
+
+}
+.footer {
+    height: 500px;
+    background:var(--black) ;
+}
+.footer-content{
+    padding-top: 62px;
+}
+.footer-content__show {
+    display: flex;
+    justify-content: space-between;
+}
+.show-center{
+    display: flex;
+    flex-direction: column;
+}
+.footer-center__box {
+    display: flex;
+    flex-direction: column;
+}
+.footer-center__item {
+    display: flex;
+}
+.left-info {
+    display: flex;
+    column-gap: 7px;
+}
+
+.footer-left__brend {
+    color: var(--white);
+    font-family: var(--PTSans-Regular);
+    font-size: 14px;
+    line-height: 18px;
+    padding: 3px 5px;
+    background:var(--brend-blue);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+  }
+
+.footer-left {
+    max-width: 270px;
+    width: 100%;
+    margin-right: 129px;
+}
+
+.footer-left__tittle {
+    color: var(--white);
+    font-family: var(--PTSans-Regular);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer-left__text {  
+    max-width: 270px;
+    width: 100%;  
+    color: var(--grey-middle);
+    font-family: var(--PTSans-Regular);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.footer-left__min-title {
+    margin-top: 70px;
+    color: var(--white);
+    font-family: var(--PTSans-Regular);
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.footer-left__icons{
+    margin-top: 30px;
+    display: flex;
+    column-gap: 15px;
+}
+
+.footer-two__icon {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    background: var(--icon-grey);
+    color: var(--white);
+}
+
+
+.footer-center__title {
+    font-family: var(--PTSans-Regular);
+    color:var(--white-title);
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.footer-item__img {
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.footer-group__text {
+    margin: 10px 19px;
+    width: 178px;
+    font-family: var(--PTSans-Bold);
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--white-title);
+}
+
+.footer-group__title {
+    margin: 20px 19px;
+    color: var(--grey-middle);
+    font-family: var(--PTSans-Italic);
+    font-size: 14px;
+    line-height: 14px;
+}
+.show-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right__title {
+    color: var(--white);
+    font-family: var(--PTSans-Bold);
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.footer-right__sign {
+    margin-top: 38px;
+    max-width: 270px;
+    width: 100%;
+    padding: 17px 0px 15px 15px;
+    border-radius: 3px;
+    background: var(--grey-brown-input);
+    border: none !important; /*  input cekasidagi oqni oladi */
+}
+
+.footer-right__email {
+    margin-top: 10px;
+    max-width: 270px;
+    width: 100%;
+    padding: 17px 0px 15px 15px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background: var(--grey-brown-input);
+    border: none !important;
+}
+
+.footer-right__btn {
+    padding: 17px 65px;
+    color:var(--white);
+    font-family: var(--PTSans-Regular);
+    font-size: 14px;
+    line-height: 18px;
+    background: var(--grey-centr-btn);
+    border-radius: 3px;
+}
